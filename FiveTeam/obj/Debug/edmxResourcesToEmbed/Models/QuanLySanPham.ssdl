@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QuanLySanPhamModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="BlogsFiveTeam">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="ByUser" Type="nvarchar" MaxLength="50" />
+    <Property Name="Date" Type="nvarchar" MaxLength="50" />
+    <Property Name="Title" Type="nvarchar(max)" />
+    <Property Name="ContentTitle" Type="nvarchar(max)" />
+    <Property Name="Picture" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="CategoriesFiveTeam">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="CategoriesCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="CategoriesName" Type="nvarchar(max)" />
+    <Property Name="SellOff" Type="nvarchar" MaxLength="50" />
+    <Property Name="Picture" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="ProductFiveTeam">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="Productcode" Type="nvarchar" MaxLength="50" />
+    <Property Name="ProductName" Type="nvarchar(max)" />
+    <Property Name="Price" Type="float" />
+    <Property Name="Picture" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="ReviewFiveTeam">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="NameReview" Type="nvarchar" MaxLength="50" />
+    <Property Name="ContentReview" Type="nvarchar(max)" />
+    <Property Name="Picture" Type="nvarchar(max)" />
+    <Property Name="Start" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityContainer Name="QuanLySanPhamModelStoreContainer">
+    <EntitySet Name="BlogsFiveTeam" EntityType="Self.BlogsFiveTeam" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CategoriesFiveTeam" EntityType="Self.CategoriesFiveTeam" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProductFiveTeam" EntityType="Self.ProductFiveTeam" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ReviewFiveTeam" EntityType="Self.ReviewFiveTeam" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

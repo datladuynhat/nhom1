@@ -1,0 +1,147 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- linkl lấy phông chữ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="~/css/style.css">
+
+</head>
+<body>
+    <!-- phần header -->
+    <header class="header">
+        <a href="#" class="logo"><i class="fa fa-shopping-basket"></i> fiveTeam</a>
+        <nav class="navbar">
+            <a href="~/home/Trangchu">Home</a>
+            <a href="~/Product/Product">Product</a>
+            <a href="~/Categories/Categories">Categories</a>
+            <a href="~/Review/Review">Review</a>
+            <a href="~/Blogs/Blogs">Blogs</a>
+        </nav>
+        <div class="icon">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <!-- Phần form tìm kiếm  -->
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fa fa-search"></label>
+        </form>
+        <!-- phần giỏ hàng -->
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="~/img\Products/bot_toi.jpg" alt="">
+                <div class="content">
+                    <h3>Bột Tỏi</h3>
+                    <span class="prince"> 5$</span>
+                    <span class="quantity">qty : 15</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="~/img\Products/cam_thao.jpg" alt="">
+                <div class="content">
+                    <h3>Cam Thảo</h3>
+                    <span class="prince"> 10$</span>
+                    <span class="quantity">qty : 4</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="~/img\Products/chuoi_hot.jpg" alt="">
+                <div class="content">
+                    <h3>Chuối Hột</h3>
+                    <span class="prince"> 19$</span>
+                    <span class="quantity">qty : 7</span>
+                </div>
+            </div>
+            <div class="total"> total : 34$</div>
+            <a href="#" class="btn">checkout</a>
+        </div>
+        <!-- phần form đăng nhập -->
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>forget your password <a href="#">click here</a></p>
+            <p>don't have an account <a href="#">create now</a></p>
+            <input type="submit" placeholder="login now" class="btn">
+        </form>
+
+    </header>
+
+    <!-- phần shop now-->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>fresh and <span>organic</span>product for your</h3>
+            <p>Welcome to TeamFive</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+    </section>
+
+    
+
+    @RenderBody()
+
+    <!-- phần footer  -->
+    <section class="footer">
+        <div class="box-container">
+
+            <div class="box">
+                <h3>FiveTeam <i class="fas fa-shopping-basket"></i></h3>
+                <p>sạch từ tâm - ngon trọn vẹn</p>
+                <div class="share">
+                    <a href="#" class="fab fa fa-facebook-f"></a>
+                    <a href="#" class="fab fa fa-twitter"></a>
+                    <a href="#" class="fab fa fa-instagram"></a>
+                    <a href="#" class="fab fa fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#" class="links"> <i class="fas fa-phone"></i>+123-456-7890</a>
+                <a href="#" class="links"> <i class="fas fa-phone"></i>+111-222-333</a>
+                <a href="#" class="links"> <i class="fas fa-envelope"></i>Example@gmail.com</a>
+                <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i>nguyen Lo Trach, Đa Nang-Viet Nam</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i>home</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i>features</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i>product</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i>categories</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i>review</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i>blogs</a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <input type="email" placeholder="your email" class="email">
+                <input type="submit" value="subscribe" class="btn">
+                <img src="~/img\payment\paymen.jpg" class="payment-img" alt="">
+            </div>
+
+        </div>
+
+        <div class="credit">created by <span>the five team</span> | all rights reserved</div>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="~/js/script.js"></script>
+</body>
+</html>

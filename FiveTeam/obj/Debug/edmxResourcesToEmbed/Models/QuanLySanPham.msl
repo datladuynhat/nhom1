@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QuanLySanPhamModelStoreContainer" CdmEntityContainer="QuanLySanPhamEntities2">
+    <EntitySetMapping Name="ProductFiveTeams">
+      <EntityTypeMapping TypeName="QuanLySanPhamModel.ProductFiveTeam">
+        <MappingFragment StoreEntitySet="ProductFiveTeam">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Productcode" ColumnName="Productcode" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Picture" ColumnName="Picture" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BlogsFiveTeams">
+      <EntityTypeMapping TypeName="QuanLySanPhamModel.BlogsFiveTeam">
+        <MappingFragment StoreEntitySet="BlogsFiveTeam">
+          <ScalarProperty Name="Picture" ColumnName="Picture" />
+          <ScalarProperty Name="ContentTitle" ColumnName="ContentTitle" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="ByUser" ColumnName="ByUser" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CategoriesFiveTeams">
+      <EntityTypeMapping TypeName="QuanLySanPhamModel.CategoriesFiveTeam">
+        <MappingFragment StoreEntitySet="CategoriesFiveTeam">
+          <ScalarProperty Name="Picture" ColumnName="Picture" />
+          <ScalarProperty Name="SellOff" ColumnName="SellOff" />
+          <ScalarProperty Name="CategoriesName" ColumnName="CategoriesName" />
+          <ScalarProperty Name="CategoriesCode" ColumnName="CategoriesCode" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ReviewFiveTeams">
+      <EntityTypeMapping TypeName="QuanLySanPhamModel.ReviewFiveTeam">
+        <MappingFragment StoreEntitySet="ReviewFiveTeam">
+          <ScalarProperty Name="Start" ColumnName="Start" />
+          <ScalarProperty Name="Picture" ColumnName="Picture" />
+          <ScalarProperty Name="ContentReview" ColumnName="ContentReview" />
+          <ScalarProperty Name="NameReview" ColumnName="NameReview" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

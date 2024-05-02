@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QuanLyModelStoreContainer" CdmEntityContainer="QuanLyEntities1">
+    <EntitySetMapping Name="Catas">
+      <EntityTypeMapping TypeName="QuanLyModel.Cata">
+        <MappingFragment StoreEntitySet="Cata">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CataCode" ColumnName="CataCode" />
+          <ScalarProperty Name="CataName" ColumnName="CataName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="QuanLyModel.Product">
+        <MappingFragment StoreEntitySet="Product">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Catalogld" ColumnName="Catalogld" />
+          <ScalarProperty Name="ProductCode" ColumnName="ProductCode" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="Picture" ColumnName="Picture" />
+          <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

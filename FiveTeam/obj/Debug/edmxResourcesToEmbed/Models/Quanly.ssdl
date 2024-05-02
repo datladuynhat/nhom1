@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QuanLyModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Cata">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="CataCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="CataName" Type="nvarchar" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="Catalogld" Type="nvarchar" MaxLength="50" />
+    <Property Name="ProductCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="ProductName" Type="nvarchar" MaxLength="250" />
+    <Property Name="Picture" Type="nvarchar(max)" />
+    <Property Name="UnitPrice" Type="float" />
+  </EntityType>
+  <EntityContainer Name="QuanLyModelStoreContainer">
+    <EntitySet Name="Cata" EntityType="Self.Cata" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Product" EntityType="Self.Product" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

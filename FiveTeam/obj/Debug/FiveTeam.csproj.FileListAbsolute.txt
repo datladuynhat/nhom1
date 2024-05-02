@@ -1,0 +1,64 @@
+C:\Users\Truong Duong\source\repos\FiveTeam\FiveTeam\bin\FiveTeam.dll.config
+C:\Users\Truong Duong\source\repos\FiveTeam\FiveTeam\bin\FiveTeam.dll
+C:\Users\Truong Duong\source\repos\FiveTeam\FiveTeam\bin\FiveTeam.pdb
+C:\Users\Truong Duong\source\repos\FiveTeam\FiveTeam\bin\Antlr3.Runtime.dll
+C:\Users\Truong Duong\source\repos\FiveTeam\FiveTeam\bin\EntityFramework.dll
+C:\Users\Truong Duong\source\repos\FiveTeam\FiveTeam\bin\EntityFramework.SqlServer.dll
+C:\Users\Truong Duong\source\repos\FiveTeam\FiveTeam\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Truong Duong\source\repos\FiveTeam\FiveTeam\bin\Newtonsoft.Json.dll
+C:\Users\Truong Duong\source\repos\FiveTeam\FiveTeam\bin\System.Web.Helpers.dll
+C:\Users\Truong Duong\source\repos\FiveTeam\FiveTeam\bin\System.Web.Mvc.dll
+C:\Users\Truong Duong\source\repos\FiveTeam\FiveTeam\bin\System.Web.Optimization.dll
+C:\Users\Truong Duong\source\repos\FiveTeam\FiveTeam\bin\System.Web.Razor.dll
+C:\Users\Truong Duong\source\repos\FiveTeam\FiveTeam\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Truong Duong\source\repos\FiveTeam\FiveTeam\bin\System.Web.WebPages.dll
+C:\Users\Truong Duong\source\repos\FiveTeam\FiveTeam\bin\System.Web.WebPages.Razor.dll
+C:\Users\Truong Duong\source\repos\FiveTeam\FiveTeam\bin\WebGrease.dll
+C:\Users\Truong Duong\source\repos\FiveTeam\FiveTeam\bin\EntityFramework.xml
+C:\Users\Truong Duong\source\repos\FiveTeam\FiveTeam\bin\EntityFramework.SqlServer.xml
+C:\Users\Truong Duong\source\repos\FiveTeam\FiveTeam\bin\System.Web.Helpers.xml
+C:\Users\Truong Duong\source\repos\FiveTeam\FiveTeam\bin\System.Web.Mvc.xml
+C:\Users\Truong Duong\source\repos\FiveTeam\FiveTeam\bin\System.Web.Optimization.xml
+C:\Users\Truong Duong\source\repos\FiveTeam\FiveTeam\bin\System.Web.Razor.xml
+C:\Users\Truong Duong\source\repos\FiveTeam\FiveTeam\bin\System.Web.WebPages.xml
+C:\Users\Truong Duong\source\repos\FiveTeam\FiveTeam\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Truong Duong\source\repos\FiveTeam\FiveTeam\bin\System.Web.WebPages.Razor.xml
+C:\Users\Truong Duong\source\repos\FiveTeam\FiveTeam\bin\Newtonsoft.Json.xml
+C:\Users\Truong Duong\source\repos\FiveTeam\FiveTeam\bin\Antlr3.Runtime.pdb
+C:\Users\Truong Duong\source\repos\FiveTeam\FiveTeam\obj\Debug\FiveTeam.csproj.AssemblyReference.cache
+C:\Users\Truong Duong\source\repos\FiveTeam\FiveTeam\obj\Debug\FiveTeam.csproj.CoreCompileInputs.cache
+C:\Users\Truong Duong\source\repos\FiveTeam\FiveTeam\obj\Debug\FiveTeam.csproj.Up2Date
+C:\Users\Truong Duong\source\repos\FiveTeam\FiveTeam\obj\Debug\FiveTeam.dll
+C:\Users\Truong Duong\source\repos\FiveTeam\FiveTeam\obj\Debug\FiveTeam.pdb
+D:\Thư mục mới (4)\FiveTeam\FiveTeam\bin\FiveTeam.dll.config
+D:\Thư mục mới (4)\FiveTeam\FiveTeam\bin\FiveTeam.dll
+D:\Thư mục mới (4)\FiveTeam\FiveTeam\bin\FiveTeam.pdb
+D:\Thư mục mới (4)\FiveTeam\FiveTeam\bin\Antlr3.Runtime.dll
+D:\Thư mục mới (4)\FiveTeam\FiveTeam\bin\EntityFramework.dll
+D:\Thư mục mới (4)\FiveTeam\FiveTeam\bin\EntityFramework.SqlServer.dll
+D:\Thư mục mới (4)\FiveTeam\FiveTeam\bin\Microsoft.Web.Infrastructure.dll
+D:\Thư mục mới (4)\FiveTeam\FiveTeam\bin\Newtonsoft.Json.dll
+D:\Thư mục mới (4)\FiveTeam\FiveTeam\bin\System.Web.Helpers.dll
+D:\Thư mục mới (4)\FiveTeam\FiveTeam\bin\System.Web.Mvc.dll
+D:\Thư mục mới (4)\FiveTeam\FiveTeam\bin\System.Web.Optimization.dll
+D:\Thư mục mới (4)\FiveTeam\FiveTeam\bin\System.Web.Razor.dll
+D:\Thư mục mới (4)\FiveTeam\FiveTeam\bin\System.Web.WebPages.Deployment.dll
+D:\Thư mục mới (4)\FiveTeam\FiveTeam\bin\System.Web.WebPages.dll
+D:\Thư mục mới (4)\FiveTeam\FiveTeam\bin\System.Web.WebPages.Razor.dll
+D:\Thư mục mới (4)\FiveTeam\FiveTeam\bin\WebGrease.dll
+D:\Thư mục mới (4)\FiveTeam\FiveTeam\bin\EntityFramework.xml
+D:\Thư mục mới (4)\FiveTeam\FiveTeam\bin\EntityFramework.SqlServer.xml
+D:\Thư mục mới (4)\FiveTeam\FiveTeam\bin\System.Web.Helpers.xml
+D:\Thư mục mới (4)\FiveTeam\FiveTeam\bin\System.Web.Mvc.xml
+D:\Thư mục mới (4)\FiveTeam\FiveTeam\bin\System.Web.Optimization.xml
+D:\Thư mục mới (4)\FiveTeam\FiveTeam\bin\System.Web.Razor.xml
+D:\Thư mục mới (4)\FiveTeam\FiveTeam\bin\System.Web.WebPages.xml
+D:\Thư mục mới (4)\FiveTeam\FiveTeam\bin\System.Web.WebPages.Deployment.xml
+D:\Thư mục mới (4)\FiveTeam\FiveTeam\bin\System.Web.WebPages.Razor.xml
+D:\Thư mục mới (4)\FiveTeam\FiveTeam\bin\Newtonsoft.Json.xml
+D:\Thư mục mới (4)\FiveTeam\FiveTeam\bin\Antlr3.Runtime.pdb
+D:\Thư mục mới (4)\FiveTeam\FiveTeam\obj\Debug\FiveTeam.csproj.AssemblyReference.cache
+D:\Thư mục mới (4)\FiveTeam\FiveTeam\obj\Debug\FiveTeam.csproj.CoreCompileInputs.cache
+D:\Thư mục mới (4)\FiveTeam\FiveTeam\obj\Debug\FiveTeam.csproj.Up2Date
+D:\Thư mục mới (4)\FiveTeam\FiveTeam\obj\Debug\FiveTeam.dll
+D:\Thư mục mới (4)\FiveTeam\FiveTeam\obj\Debug\FiveTeam.pdb

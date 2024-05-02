@@ -1,0 +1,100 @@
+﻿@model FiveTeam.Models.ProductFiveTeam
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+}
+<style>
+    .dl-horizontal {
+        width: 50%;
+        margin: 0 auto;
+        line-height: 1.5rem;
+        border-radius: .5rem;
+        background: #eee;
+        color: var(--black);
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+        padding: 2px;
+        width: 50%;
+        margin: 0 auto;
+        line-height: 1.5rem;
+        border-radius: .5rem;
+        background: #eee;
+        color: #FF8C00;
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
+   
+    dt {
+        margin-bottom: 15px;
+        line-height: 1.5rem; /* Dòng chữ được căn giữa theo chiều cao của icon */
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
+    dd {
+        margin-bottom: 10px;
+        border-bottom: 1px solid #ddd;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+    h3 {
+        width: 50%; /* Đặt chiều rộng mong muốn của bảng */
+        margin: 0 auto;
+        font-size: 3rem;
+        font-weight: bolder;
+        color: #FF8C00;
+    }
+    .btn-default {
+        color: #FF8C00;
+    }
+
+</style>
+
+<h1 class="heading"> Details <span>Products</span> </h1>
+<h3>The Five Team</h3>
+<div>
+
+    <hr />
+    <dl class="dl-horizontal">
+
+            <dt >
+                @Html.DisplayNameFor(model => model.Productcode)
+            </dt>
+            <dd >
+                @Html.DisplayFor(model => model.Productcode)
+            </dd>  
+     
+            <dt>
+                @Html.DisplayNameFor(model => model.ProductName)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.ProductName)
+            </dd>
+     
+            <dt>
+                @Html.DisplayNameFor(model => model.Price)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Price)
+            </dd>
+        
+            <dt>
+                @Html.DisplayNameFor(model => model.Picture)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Picture)
+            </dd>
+        
+    </dl>
+</div>
+
+<div class="form-group">
+    <div class="col-md-offset-2 col-md-10">
+        @Html.ActionLink("Edit", "Edit", new { id = Model.ID }, new { @class = "btn btn-default" })
+    </div>
+    <div class="col-md-offset-2 col-md-10" >
+        @Html.ActionLink("Back to List", "ListProduct", null, new { @class = "btn btn-default" })
+    </div>
+</div>

@@ -1,0 +1,36 @@
+﻿@model IEnumerable<FiveTeam.Models.ProductFiveTeam>
+
+@{
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+}
+
+<!-- phần products -->
+<section class="products" id="products">
+    <h1 class="heading"> our <span>products</span> </h1>
+    <div class="swiper product-slide">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="~/img/Products/bot_toi.jpg" alt="">
+                <h3>Bột Tỏi</h3>
+                <div class="prince"> 19$</div>
+                <a href="#" class="btn"> add</a>
+            </div>
+
+           
+                @foreach (var item in Model)
+                {
+                    <div class="swiper-slide box">
+                        <img src="@Url.Content(item.Picture)" alt="">
+                        <h3>@item.ProductName</h3>
+                        <div class="prince">@item.Price$</div>
+                        <a href="#" class="btn"> add</a>
+                    </div>
+                }
+            
+
+            </div>
+    </div>
+
+</section>
+
